@@ -1,0 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-nav-link a:hover {
+  color: #2196f3;
+}
