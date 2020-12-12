@@ -15,6 +15,7 @@
   --accent-color: #2196f3;
   --black-for-text: #000000;
   --white-for-text: #ffffff;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
 }
 /*общие стили*/
 * {
@@ -46,7 +47,7 @@ a {
   color: var(--black-for-text);
 }
 /*главная навигация*/
-.main-nav {
+.main-nav a {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -62,7 +63,7 @@ a {
 }
 /*линки*/
 .links a {
-  color: var(--main-text-color);
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -112,6 +113,9 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+.our-team {
+  background-color: var(--secondary-background-color);
 }
 .specialists {
   font-weight: 500;
@@ -169,5 +173,5 @@ a {
   line-height: 1.71;
 }
 .address a {
-  color: var(--white-for-text);
+  color: var(--footer-contacts);
 }
